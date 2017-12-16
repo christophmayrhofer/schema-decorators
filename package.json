@@ -1,0 +1,33 @@
+{
+  "name": "schema-decorators",
+  "version": "0.0.1",
+  "description": "Decorator based abstraction for schema definitions with ES classes",
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navio-xyz/schema-decorators.git"
+  },
+  "keywords": [
+    "schema",
+    "decorators"
+  ],
+  "author": "NAVIO.xyz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navio-xyz/schema-decorators/issues"
+  },
+  "homepage": "https://github.com/navio-xyz/schema-decorators#readme",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  }
+}
